@@ -63,7 +63,7 @@ const CertificationSection = () => {
             </div>
             <hr className="text-border dark:text-border-dark mt-4" />
             <div className="grid text-sm">
-              <img className="aspect-4/3" src="/React_Certificate.png" />
+              <img className="aspect-4/3" src={`${import.meta.env.BASE_URL}/React_Certificate.png`} />
             </div>
             <hr className="text-border dark:text-border-dark mb-4" />
             <div className="flex justify-between flex-wrap px-4">
@@ -130,7 +130,7 @@ const CertificationSection = () => {
               <img
                 alt="Udemy"
                 className="w-full h-full"
-                src="/Udemy_Logo.png"
+                src={`${import.meta.env.BASE_URL}/Udemy_Logo.png`}
               />
             </div>
           </div>
@@ -171,7 +171,7 @@ const CertificationSection = () => {
           </div>
           <hr className="text-border dark:text-border-dark mt-4" />
           <div className="grid text-sm">
-            <img className="aspect-4/2" src="/working.svg" />
+            <img className="aspect-4/2" src={`${import.meta.env.BASE_URL}/working.svg`}/>
           </div>
           <hr className="text-border dark:text-border-dark mb-4" />
             <div className="flex justify-between flex-wrap px-4">
@@ -237,7 +237,7 @@ const CertificationSection = () => {
               <img
                 alt="Udemy"
                 className="w-full h-full"
-                src="/Udemy_Logo.png"
+                src={`${import.meta.env.BASE_URL}/Udemy_Logo.png`}
               />
             </div>
           </div>
@@ -275,7 +275,7 @@ const CertificationSection = () => {
           </div>
           <hr className="text-border dark:text-border-dark mt-4" />
           <div className="grid text-sm">
-            <img className="aspect-4/2" src="/working.svg" />
+            <img className="aspect-4/2" src={`${import.meta.env.BASE_URL}/working.svg`} />
           </div>
           <hr className="text-border dark:text-border-dark mb-4" />
           <div className="flex justify-between flex-wrap px-4">

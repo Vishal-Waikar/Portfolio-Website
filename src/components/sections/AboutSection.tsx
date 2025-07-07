@@ -94,7 +94,7 @@ const AboutSection = () => {
               
               <Button 
                 className="bg-teal hover:bg-teal/90 text-white flex items-center gap-2"
-                onClick={() => window.open('/Vishal_Waikar_Resume.pdf', '_blank')}
+                onClick={() => window.open(`${import.meta.env.BASE_URL}/Vishal_Waikar_Resume.pdf`, '_blank')}
               >
                 Download Resume
                 <ArrowDown className="h-4 w-4" />

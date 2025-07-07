@@ -37,12 +37,12 @@ const HeroSection = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal flex items-center justify-center bg-gray-800">
                 <img
-                  src="/dp.jpeg"
+                  src={`${import.meta.env.BASE_URL}/dp.jpeg`}
                   alt="Vishal Waikar"
                   className="w-full h-full object-cover object-[center_-74px]"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.src = "/dp.jpeg";
+                    target.src =`${import.meta.env.BASE_URL}/dp.jpeg`;
                   }}
                 />
               </div>

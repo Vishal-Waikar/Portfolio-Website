@@ -13,7 +13,7 @@ const experiences = [
       "Developed RESTful APIs and backend services using PHP/YII, integrating with MySQL and microservice infrastructure",
       "Integrated Google Maps API for real-time location sharing, and implemented 2FA with Twilio alongside a secure subscription model with recurring payments via Stripe."
     ],
-    img:"/Img_PPE.jpeg"
+    img: `${import.meta.env.BASE_URL}/Img_PPE.jpeg`
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const experiences = [
       "Revamped portals and created dynamic forms with JotForm for smoother workflows",
       "Resolved hundreds of client issues promptly, often within the same day, by adhering to SLAs"
     ],
-    img:"/Img_Biz.jpeg"
+    img:`${import.meta.env.BASE_URL}/Img_Biz.jpeg`
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const experiences = [
       "Contributed to feature enhancements in collaboration with senior developers",
       "Led onboarding for new interns and shared codebase knowledge and best practices"
     ],
-    img:"/Img_Biz.jpeg"
+    img:`${import.meta.env.BASE_URL}/Img_Biz.jpeg`
   }
 ];
 

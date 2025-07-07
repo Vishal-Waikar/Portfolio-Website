@@ -135,8 +135,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">GitHub</h4>
-                  <a href="https://github.com/TechieWakie" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-teal transition-colors">
-                    /TechieWakie
+                  <a href="https://github.com/Vishal-Waikar" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-teal transition-colors">
+                    /Vishal-Waikar
                   </a>
                 </div>
               </div>

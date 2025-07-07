@@ -4,115 +4,115 @@ const tools = [
   {
     id: 1,
     name: "Java",
-    icon: "/Img_Java.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_Java.svg`,
     color: "#efefef"
   },
   {
     id: 2,
     name: "Spring/Spring Boot",
-    icon: "/Img_Spring.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_Spring.svg`,
     color: "#FFFFFF"
   },
   {
     id: 3,
     name: "Kotlin",
-    icon: "/Img_Kotlin.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_Kotlin.svg`,
     color: "#000000"
   },
   {
     id: 4,
     name: "React",
-    icon: "/Img_React.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_React.svg`,
     color: "#FFFFFF"
   },
   {
     id: 5,
     name: "NextJs",
-    icon: "/Img_NextJs.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_NextJs.svg`,
     color: "#FFFFFF"
   },
   {
     id: 6,
     name: "Tailwind CSS",
-    icon: "/Img_Tailwind.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_Tailwind.svg`,
     color: "#FFFFFF"
   },
   {
     id: 7,
     name: "Js",
-    icon: "/Img_Js.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_Js.svg`,
     color: "#fff700"
   },
   {
     id: 8,
     name: "Html",
-    icon: "/Img_Html.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_Html.svg`,
     color: "#FFFFFF"
   },
   {
     id: 9,
     name: "Sql server",
-    icon: "/Img_Sql.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_Sql.svg`,
     color: "#efefef"
   },
   {
     id: 10,
     name: "Python",
-    icon: "/Img_Python.svg",
+    con: `${import.meta.env.BASE_URL}/Img_Python.svg`,
     color: "#efefef"
   },
   {
     id: 11,
     name: "Rest API",
-    icon: "/Img_Rest.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_Rest.svg`,
     color: "#ff7800"
   },
   {
     id: 12,
     name: "Ms Azure",
-    icon: "/Img_Azure.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_Azure.svg`,
     color: "#efefef"
   },
   {
     id: 13,
     name: "Git",
-    icon: "/Img_Git.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_Git.svg`,
     color: "#FFFFFF"
   },
   {
     id: 14,
     name: "OpenAI",
-    icon: "/Img_OpenAI.svg",
+    icon: `${import.meta.env.BASE_URL}/Img_OpenAI.svg`,
     color: "#FFFFFF"
   },
   {
     id: 15,
     name: "Anthropic",
-    icon: "/anthropic.svg",
+    icon: `${import.meta.env.BASE_URL}/anthropic.svg`,
     color: "#ce9178"
   },
   {
     id: 16,
     name: "CrewAI",
-    icon: "/crewai-color.svg",
+    icon: `${import.meta.env.BASE_URL}/crewai-color.svg`,
     color: "#FFFFFF"
   },
   {
     id: 17,
     name: "LangChain",
-    icon: "/langchain.svg",
+    icon: `${import.meta.env.BASE_URL}/langchain.svg`,
     color: "#FFFFFF"
   },
   {
     id: 18,
     name: "LangGraph",
-    icon: "/langgraph.svg",
+    icon: `${import.meta.env.BASE_URL}/langgraph.svg`,
     color: "#FFFFFF"
   },
   {
     id: 19,
     name: "MCP",
-    icon: "/mcp.svg",
+    icon: `${import.meta.env.BASE_URL}/mcp.svg`,
     color: "#FFFFFF"
   },
 ];
